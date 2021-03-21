@@ -46,6 +46,6 @@
   <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
   {{ end }} {{ end }} {{ with .Params.image }}
   <meta property="og:image" content="{{ . | absURL }}" />
-  {{ end }} {{ template "_internal/opengraph.html" . }} {{ template
-  "_internal/google_analytics.html" . }}
+  {{ end }} {{ template "_internal/opengraph.html" . }} 
+  <!-- {{ template "_internal/google_analytics.html" . }} -->
 </head>
