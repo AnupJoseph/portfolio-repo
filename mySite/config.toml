@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.com"
+baseURL = "/"
 title = "Anup | My Portfolio Website"
 theme = "somrat"
 # post pagination
