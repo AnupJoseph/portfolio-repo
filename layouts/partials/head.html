@@ -22,7 +22,7 @@
   {{ end }}
 
   <!-- Main Stylesheet -->
-  {{ $styles := resources.Get "css/style.css" | minify }}
+  {{ $styles := resources.Get "css/style-minified.css" | minify }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen" />
 
   <!-- Custom stylesheet -->

@@ -1,13 +1,13 @@
 ######################## default configuration ####################
 baseURL = ""
 title = "Anup | My Portfolio Website"
-theme = "somrat"
+theme = "hugo-portfolio"
 # post pagination
 paginate = "6"
 # post excerpt
 summaryLength = "10"
 # disable language
-disableLanguages = [] # disable language from here
+disableLanguages = ['French'] # disable language from here
 # google analutics
 googleAnalytics = "" # example : UA-123-45
 # disqus short name
@@ -66,7 +66,7 @@ logo_dark = "images/logo1.png"
 logo_width = "150px"
 # Meta data
 description = "This is meta description"
-author = "somrat"
+author = "Anup Joseph"
 
 # Preloader
 [params.preloader]
