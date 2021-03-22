@@ -246,9 +246,7 @@
 </style>
 <section
   class="about-me {{.Params.custom_class}}"
-  {{.Params.custom_attributes
-  |
-  safeHTMLAttr}}
+  {{.Params.custom_attributes | safeHTMLAttr}}
   id="about"
 >
   <div class="container">
@@ -344,9 +342,7 @@
 </style>
 <section
   class="services {{.Params.custom_class}}"
-  {{.Params.custom_attributes
-  |
-  safeHTMLAttr}}
+  {{.Params.custom_attributes | safeHTMLAttr}}
   id="service"
 >
   <div class="container">
@@ -391,9 +387,7 @@
 <section
   id="cta"
   class="need-service overlay section-sm wow fadeInUp {{.Params.custom_class}}"
-  {{.Params.custom_attributes
-  |
-  safeHTMLAttr}}
+  {{.Params.custom_attributes | safeHTMLAttr}}
   data-wow-duration="1.5s"
   style="background-image: url('{{ .Params.bg_image | absURL }}');"
 >
@@ -420,9 +414,7 @@
 </style>
 <section
   class="portfolio {{.Params.custom_class}}"
-  {{.Params.custom_attributes
-  |
-  safeHTMLAttr}}
+  {{.Params.custom_attributes | safeHTMLAttr}}
   id="portfolio"
 >
   <div class="container-fluid text-center">
@@ -521,9 +513,7 @@
 </style>
 <section
   class="testimonials {{.Params.custom_class}}"
-  {{.Params.custom_attributes
-  |
-  safeHTMLAttr}}
+  {{.Params.custom_attributes | safeHTMLAttr}}
   id="testimonial"
 >
   <div class="container">
@@ -609,9 +599,7 @@
 </style>
 <section
   class="contact {{.Params.custom_class}}"
-  {{.Params.custom_attributes
-  |
-  safeHTMLAttr}}
+  {{.Params.custom_attributes | safeHTMLAttr}}
   style="background-image: url('{{.Params.bg_image | absURL}}');"
   id="contact"
 >
