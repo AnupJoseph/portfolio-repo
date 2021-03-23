@@ -1508,6 +1508,7 @@ ul.experience-chart h4 {
 
 /* ========= 7.2 Start Fun Facts ======= */
 
+/* 
 .no-js .fun-facts {
   display: none;
 }
@@ -1546,7 +1547,7 @@ ul.experience-chart h4 {
   font-weight: 700;
   font-size: 21px;
   margin-top: 13px;
-}
+} */
 
 /*--------------------------------
    End Testimonials
@@ -1972,6 +1973,98 @@ input.form-control::-webkit-input-placeholder, textarea.form-control::-webkit-in
 ----------------------------------*/
 
 /*--------------------------------
+  Start 404
+----------------------------------*/
+
+.notfoundcontainer {
+  position: relative;
+  height: 100vh;
+  background: #030005;
+}
+
+.notfoundcontainer .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.notfound .notfound-404 {
+  position: relative;
+  height: 180px;
+  margin-bottom: 20px;
+  z-index: -1;
+}
+
+.notfound .notfound-404 h1 {
+  font-family: montserrat, sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 224px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: -12px;
+  color: #030005;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 0 #8400ff, 1px 1px 0 #ff005a;
+  letter-spacing: -20px;
+}
+
+.notfound .notfound-404 h2 {
+  font-family: montserrat, sans-serif;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 110px;
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0 2px 0 #8400ff;
+  letter-spacing: 13px;
+  margin: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .notfound .notfound-404 h2 {
+    font-size: 24px;
+  }
+}
+
+.notfound a {
+  font-family: montserrat, sans-serif;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #ff005a;
+  text-decoration: none;
+  border: 2px solid;
+  background: 0 0;
+  padding: 10px 40px;
+  font-size: 14px;
+  font-weight: 700;
+  -webkit-transition: .2s all;
+  transition: .2s all;
+}
+
+.notfound {
+  max-width: 767px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+}
+
+/*--------------------------------
+  End 404
+----------------------------------*/
+
+/*--------------------------------
  Start Menu
 ----------------------------------*/
 
@@ -2138,14 +2231,14 @@ input.form-control::-webkit-input-placeholder, textarea.form-control::-webkit-in
   }
 }
 
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
   .fun-facts {
     justify-content: space-around;
   }
   .fun-fact-holder {
     margin-bottom: 40px;
   }
-}
+} */
 
 @media (min-width:766px) and (max-width: 991px) {
   .testimonials {
