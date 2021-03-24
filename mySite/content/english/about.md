@@ -58,4 +58,4 @@ custom_attributes: ""
 custom_css: ""
 ---
 
-Hi, I am Anup Joseph, junior Data Analyst........😊
+Hi, I am Anup Joseph, a data science professional specializing in Data Visualization.........😊

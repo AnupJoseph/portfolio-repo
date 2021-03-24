@@ -14,12 +14,14 @@
   {{.Params.custom_attributes | safeHTMLAttr}}
   id="home"
 >
-  <div class="logo">
-    <img
+  <div class="logo" style="display: flex;">
+    <div style="flex-grow: 1;">
+      <img
       class="img-fluid"
-      src="{{ site.Params.logo_light | relURL }}"
+      src="{{ site.Params.logo_dark | relURL }}"
       alt="{{ site.Title }}"
-    />
+      />
+    </div>
   </div>
   <div class="slider-prev-button slider-button">
     <i class="fa fa-angle-left"></i>
@@ -174,7 +176,7 @@
             ><img
               loading="lazy"
               class="img-fluid"
-              src="{{ site.Params.logo_dark | absURL }}"
+              src="{{ site.Params.logo_light | absURL }}"
               alt="{{ site.Title }}"
           /></a>
         </div>
