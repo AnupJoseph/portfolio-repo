@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = ""
 title = "Anup | My Portfolio Website"
-theme = "hugo-portfolio"
+theme = "somrat"
 # post pagination
 paginate = "6"
 # post excerpt
