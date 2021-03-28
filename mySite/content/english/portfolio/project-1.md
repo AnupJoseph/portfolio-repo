@@ -15,9 +15,6 @@ project_info:
 - name: "Next Project"
   icon: "fas fa-globe"
   content: "[Next 🠊](/portfolio/project-2)"
-# - name: "Project Before"
-#   icon: "fas fa-redo"
-#   content: "This is in a loop"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
