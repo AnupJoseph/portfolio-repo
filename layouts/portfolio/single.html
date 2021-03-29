@@ -21,7 +21,7 @@
             class="img-fluid w-100 mb-5"
           />{{ end }}
           <div class="about-me-text mb-4">
-            <h1>{{.Title | markdownify}}</h1>
+            <h1>{{.Params.projectname | markdownify}}</h1>
           </div>
           <div class="content">{{.Content}}</div>
         </div>

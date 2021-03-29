@@ -1,39 +1,34 @@
 ---
-title: "Project Title"
+title: "ATSC"
+projectname: "Automated Traffic Control System"
 date: 2020-05-12T12:14:34+06:00
-image: "images/portfolio/item1.jpg"
-categories: ["design","development"]
+image: "images/portfolio/atsc-comp.jpg"
+categories: ["Reinforcement Learning"]
 description: "This is meta description."
 draft: false
 project_info:
-- name: "Client"
-  icon: "fas fa-user"
-  content: "John Doe"
+- name: "Course-related Project"
+  icon: "fas fa-university"
+  content: "Fr. CRCE"
 - name: "Project Link"
   icon: "fas fa-link"
-  content: "https://examplesite.com/"
+  content: "[Presentation](https://www.canva.com/design/DAEZ1rRngBE/8TgRm1NguHwm8cZB8ufFuw/view?utm_content=DAEZ1rRngBE&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu)"
 - name: "Next Project"
   icon: "fas fa-globe"
   content: "[Next 🠊](/portfolio/project-2)"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
+Due to the fast-paced nature of the modern world, cities have been getting more congested every year thus adding to the strain on city infrastructure like roads. 
 
+To solve this problem of traffic we are trying to build a Multi-Agent Reinforcement Learning **(MARL)** system for managing dynamic, complicated traffic. The main advantage of the MARL system is that it can walk the fine line between global optimizing the traffic flow and ensuring that traffic is not being choked at any intersection
+
+#### Problem 
+Create a scalable, efficient traffic control system capable of handling real-world dynamic traffic networks using Reinforcement Learning technique
 
 #### Project Details
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
+Project Working
+*  Cameras/sensors placed on the road near the intersection find out the vehicle queue length and the time taken for the queue to move
+* This information is passed on to the  
 
 
 #### Project Requirements

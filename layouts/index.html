@@ -464,11 +464,11 @@
               <a
                 href="{{.Permalink}}"
                 target="_blank"
-                title="{{ .Title | markdownify }}"
+                title="{{ .Params.projectname | markdownify }}"
               >
                  <img
                   src="{{ .Params.image | absURL }}"
-                  alt="{{ .Title | markdownify }}"
+                  alt="{{ .Params.projectname | markdownify }}"
                 />
               </a>
               <div class="item-caption">
