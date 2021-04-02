@@ -28,7 +28,9 @@ Create a scalable, efficient traffic control system capable of handling real-wor
 #### Project Details
 Project Working
 *  Cameras/sensors placed on the road near the intersection find out the vehicle queue length and the time taken for the queue to move
-* This information is passed on to the  
+* Each intersection in the network contains an individual agent. Each agent is given the role of optimizing the traffic at its own incoming and outgoing lanes , i.e. locally.
+* To improve the traffic globally and to react fast to events in different places, each agent talks to each other by passing in the last states.
+* These last state information are discounted to control their effect.
 
 
 #### Project Requirements
