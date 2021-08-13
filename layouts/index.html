@@ -503,8 +503,8 @@
 </section>
 {{ end }}2
 <!-- End Portfolio -->
-
-<!-- Start Testimonials -->
+<!-- 
+Start Testimonials
 {{ with .GetPage "testimonial"}}
 <style>
    {
@@ -550,7 +550,7 @@
     </div>
   </div>
 </section>
-{{ end }}
+{{ end }} -->
 <!-- End Testimonials -->
 <!-- Start Contact -->
 {{ with .GetPage "contact"}}
@@ -575,7 +575,7 @@
         </h1>
         <form
           method="POST"
-          action="{{ .Params.form_action }}"
+          action="https://formspree.io/f/xknkpgoo"
           data-toggle="validator"
         >
           <div class="form-container row wow fadeInUp" data-wow-duration="1.5s">
